@@ -1,0 +1,83 @@
+@import url(./reset.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Anonymous Pro', serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 2.2em;
+    font-weight: 700;
+}
+
+.reset {
+    padding: 10px;
+    background-color: lightcoral;
+    color: white;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 1.8em;
+    font-weight: 700;
+    margin: 20px auto;
+}
+
+h4 {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+/*.positioner {
+    margin: 0 auto;
+}*/
+
+.player1 {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.player2 {
+    background-color: pink;
+    padding: 20px;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+}
+
+#main {
+    padding: 20px;
+    text-align: center;
+}
+
+#choices {
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: aquamarine;
+    margin: 10px;
+    font-size: 1em;
+    font-weight: 400;
+    border: none;
+    padding: 10px;
+}
