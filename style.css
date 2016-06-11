@@ -67,6 +67,10 @@ header {
     text-align: center;
 }
 
+#main img {
+    width: 40%;
+}
+
 #choices {
     margin: 10px auto;
     display: flex;

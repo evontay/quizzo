@@ -9,6 +9,7 @@ Link: http://evontay.github.io/quizzo/
 - Jquery
 
 ###Features
+- Flexbox
 - Updating player scores
 - Restart button
 - Quiz elements represented as an object
