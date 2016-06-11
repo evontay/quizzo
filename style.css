@@ -16,6 +16,7 @@ h1 {
     font-size: 2.5em;
     font-weight: 700;
     margin: 10px auto;
+    color:  tomato;
 }
 
 h2 {
@@ -79,9 +80,14 @@ header {
 
 button {
     background-color: aquamarine;
+    font-family: 'Anonymous Pro', serif;
     margin: 10px;
     font-size: 1em;
-    font-weight: 400;
+    font-weight: 700;
     border: none;
     padding: 10px;
+}
+
+button:hover {
+    background-color: lightseagreen;
 }
